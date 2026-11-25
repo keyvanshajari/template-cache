@@ -7,6 +7,13 @@ const nextConfig: NextConfig = {
   },
   cacheComponents: true,
   partialPrefetching: true,
+  cacheLife: {
+    catalog: {
+      stale: 300,
+      revalidate: 300,
+      expire: 3600,
+    },
+  },
   turbopack: {
     rules: {
       "*.css": {
