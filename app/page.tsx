@@ -31,10 +31,11 @@ export default async function Home() {
             Browse products
           </Link>
           <Link
-            href="/api/products"
+            href="/ppr"
+            prefetch={true}
             className="inline-flex h-11 items-center rounded-full border border-black/10 px-5 text-sm font-medium dark:border-white/15"
           >
-            GET /api/products
+            Partial Prerendering
           </Link>
         </div>
       </section>

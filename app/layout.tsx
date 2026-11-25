@@ -37,6 +37,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <Link href="/products" prefetch={true}>
                 Products
               </Link>
+              <Link href="/ppr" prefetch={true}>
+                PPR
+              </Link>
               <Link href="/api/tags">Tags API</Link>
             </div>
           </nav>
